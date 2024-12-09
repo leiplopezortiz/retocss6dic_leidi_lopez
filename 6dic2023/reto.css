@@ -1,24 +1,99 @@
 .planes{
-    padding: 2px;
-    margin: 1px;
+    margin: 25%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    box-shadow: -3px 5px 20px 3px  rgb(156, 156, 156);
+    border-radius: 20px 20px 20px 20px;
+}
+.plan1{
+    display: flex;
+    width: 33%;
+    font-size: 5mm;
+    text-align: center;
+    font-family: Helvetica;
+    flex-direction: column;
+    padding: 50px;
+    align-items: center;
+    background-image: linear-gradient(white);
+}
+.plan2{
+    margin: 0px 0px 10px 0px;
+    display: flex;
+    width: 33%;
+    font-size: 5mm;
+    text-align: center;
+    font-family: Helvetica;
+    flex-direction: column;
+    padding: 50px;
+    align-items: center;
+    background-image: linear-gradient(to bottom right,rgb(9, 68, 146),rgb(56, 233, 218));
+    border-radius: 0px 0 20px 20px;
+    box-shadow: 0px 5px 10px  rgb(156, 156, 156);
+}
+.plan3{
+    display: flex;
+    width: 33%;
+    font-size: 5mm;
+    text-align: center;
+    font-family: Helvetica;
+    flex-direction: column;
+    padding: 50px;
+    align-items: center;
+    background-image: linear-gradient(white);
+}
+.titulo1{
+    color: rgb(32, 86, 233);
     display: flex;
     justify-content: center;
 }
-.plan1{
-    padding: 10px;
-    border: dotted;
-    margin: 2px;
-    width: 400px;
+.titulo2{
+    color: white;
+    display: flex;
+    justify-content: center;
 }
-.plan2{
-    padding: 10px;
-    border: dotted;
-    margin: 2px;
-    width: 400px;
+.tiempo1{
+    color: rgb(35, 73, 241);
+    display: flex;
+    justify-content: center;
 }
-.plan3{
-    padding: 10px;
-    border: dotted;
-    margin: 2px;
-    width: 400px;
+.tiempo2{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.valor{
+    color: rgb(56, 233, 218);
+    display: flex;
+    justify-content: center;
+}
+.beneficios{
+    color: rgb(17, 107, 243);
+    text-align: center;
+}
+.beneficios2{
+    color: white;
+    text-align: center;
+}
+.botones{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.boton1{
+    color: white;
+    border-color: rgb(56, 233, 218);
+    border-radius: 50px;
+    background-color: rgb(56, 233, 218);
+    padding: 4% 60px;
+    box-shadow: 0px 5px 10px  rgb(156, 156, 156);
+}
+.boton2{
+    color:rgb(56, 233, 218);;
+    border-color: rgb(56, 233, 218);
+    border-radius: 50px;
+    background-color: white;
+    padding: 4% 40px;
+    box-shadow: 0px 5px 10px  rgb(156, 156, 156);
+    white-space: nowrap
 }
